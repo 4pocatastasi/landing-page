@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 *{
     font-family:Roboto;
 }
@@ -18,7 +18,7 @@ a {    /* this removes the line under the links */
 
   
   }
-.header{
+.header,.content,.footer{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -84,4 +84,50 @@ a {    /* this removes the line under the links */
     color:white;
     border-radius: 8px;
     padding:8px 30px;
+}
+
+/* ####
+
+CONTENT
+
+#### */
+
+
+.content,.footer{
+    background-color:white;
+}
+
+.content-container{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px;
+    margin-bottom: 100px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    flex:1 0 100%;
+    justify-self: center;
+    align-self: start;
+    text-align: center;    
+    padding: 24px 0 0;
+    margin-bottom:0;
+}
+.image-box{
+    border:4px solid #3b82f6;
+    border-radius: 10px;
+    width:150px;
+    height:150px;
+}
+.content-box{
+    width: 150px;
+    color:#4b5563;
+    flex:0 1 0;
+    text-align: center;
+    margin:0;
+    
 }
