@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family:Roboto;
+}
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
+
+a {    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+.header-container,.content-container,.footer-container{
+  width:1000px;
+
+  
+  }
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #1F2937;
+}
+
+.top-bar{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight:900;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+.top-bar-link{
+    font-weight:100;
+    list-style-type: none;
+    display:flex;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar-link >li{
+    padding-left:24px;
+}
+.hero-secondary,.top-bar-link, .title > p, .image-placeholder>p{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.title > h1{
+    font-size:48px;
+    color:#F9FAF8;
+}
