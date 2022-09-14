@@ -13,12 +13,12 @@ a {    /* this removes the line under the links */
     text-decoration: none;
   }
 
-.header-container,.content-container,.footer-container,.quote-container{
+.header-container,.content-container,.call-action-containerm,.footer-container,.quote-container{
   width:1100px;
 
   
   }
-.header,.content,.quote,.footer{
+.header,.content,.quote,.footer,.call-action{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -94,7 +94,7 @@ CONTENT
 #### */
 
 
-.content,.footer{
+.content{
     background-color:white;
 }
 
@@ -160,3 +160,63 @@ figcaption{
     font-weight: 500;
     font-size: 24px;
 }
+
+/* ####
+
+ACTION
+
+#### */
+
+.call-action{
+    background-color: white;
+}
+
+.call-action-container{
+    background-color:#3b82f6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    width: 750px;
+    justify-content: center;
+    margin: 100px 0;
+    padding: 12px 128px;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.hero-secondary{
+    margin-top:0px;
+}
+.call-action-text{
+    flex:1 1 80%;
+}
+.action-button{
+    flex:1 1 20%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.call-action-box{
+    width: 800px;
+    display: flex;
+}
+.call-action-button{
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 8px;
+    border:2px solid #fff;
+    font-size: 18px;
+    padding:6px 32px;
+}
+
+.footer-container{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin:50px 0;
+    text-align:center;
+
+}
+
