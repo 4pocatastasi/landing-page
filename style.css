@@ -13,12 +13,7 @@ a {    /* this removes the line under the links */
     text-decoration: none;
   }
 
-.header-container,.content-container,.call-action-containerm,.footer-container,.quote-container{
-  width:1100px;
-
-  
-  }
-.header,.content,.quote,.footer,.call-action{
+.header,.content,.footer,.call-action{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -56,6 +51,8 @@ a {    /* this removes the line under the links */
     margin: 100px 0;
     display: flex;
     gap: 36px;
+    justify-items: center;
+    justify-content:center;
 }
 
 .title > h1{
@@ -65,10 +62,10 @@ a {    /* this removes the line under the links */
 }
 
 .title{
-    flex: 9 1 0;
+    flex: 0 1 500px;
 }
 .image-placeholder{
-    flex: 10 1 0;
+    flex: 0 1 500px;
 }
 .image-placeholder{
     display: flex;
@@ -142,13 +139,15 @@ QUOTE
 .quote{
     background-color: #e5e7eb;
     padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .quote-content{
-    display: flex;
-    flex-direction: column;
+    flex-basis: 700px;
 }
 blockquote{
-    width: 800px;
+    flex-basis: 600px;
     font-weight: 300;
     font-style:italic;
     font-size: 36px;
@@ -159,6 +158,7 @@ figcaption{
     align-self: flex-end;
     font-weight: 500;
     font-size: 24px;
+    text-align: right;
 }
 
 /* ####
