@@ -13,6 +13,9 @@ a {    /* this removes the line under the links */
     text-decoration: none;
   }
 
+.header-container{
+    margin:0 10px;
+}
 .header,.content,.footer,.call-action{
     display: flex;
     flex-direction: column;
@@ -176,7 +179,6 @@ ACTION
     color: white;
     border-radius: 8px;
     display: flex;
-    width: 750px;
     justify-content: center;
     margin: 100px 0;
     padding: 12px 128px;
@@ -190,17 +192,16 @@ h3{
     margin-top:0px;
 }
 .call-action-text{
-    flex:1 1 80%;
 }
 .action-button{
-    flex:1 1 20%;
     display:flex;
     align-items: center;
     justify-content:center;
 }
 .call-action-box{
-    width: 800px;
     display: flex;
+    justify-content: space-around;
+    gap: 36px;
 }
 .call-action-button{
     background-color: #3b82f6;
@@ -209,6 +210,11 @@ h3{
     border:2px solid #fff;
     font-size: 18px;
     padding:6px 32px;
+    flex-shrink: 0;
+}
+.call-action{
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer-container{
@@ -217,6 +223,6 @@ h3{
     color: white;
     margin:50px 0;
     text-align:center;
-
 }
+
 
