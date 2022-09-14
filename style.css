@@ -103,8 +103,9 @@ CONTENT
     align-items:center;
     flex-wrap: wrap;
     justify-content: center;
-    gap:50px;
-    margin-bottom: 100px;
+    gap:45px;
+    margin:0px 25px 100px;
+    
 }
 
 .info-title{
