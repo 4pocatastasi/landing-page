@@ -191,8 +191,7 @@ h3{
 .hero-secondary{
     margin-top:0px;
 }
-.call-action-text{
-}
+
 .action-button{
     display:flex;
     align-items: center;
@@ -225,4 +224,12 @@ h3{
     text-align:center;
 }
 
+@media (max-width: 600px) {
+    .call-action-box{
+        flex-direction: column;
+    }
+}
 
+.call-action-container{
+    padding:12px 34px;
+}
